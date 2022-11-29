@@ -63,7 +63,7 @@
 
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     background-color: #525252;
     color: #555555;
@@ -84,7 +84,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Exo", "Roboto", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -100,8 +100,8 @@ h4 {
 
 .history-heading,
 .section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-family: "Exo", "Roboto", sans-serif;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -130,7 +130,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
@@ -138,7 +138,7 @@ header {
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
@@ -255,6 +255,8 @@ footer .cv-pdf i:hover {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Exo';
 }
 
 /*--------------------------------------------Personal Info*/
